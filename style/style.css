@@ -22,6 +22,7 @@ body .header {
 }
 
 body .main {
+  width: 100%;
   color: white;
   text-shadow: black 0.1em 0.1em 0.2em;
 }
@@ -42,6 +43,7 @@ body .button {
   border-radius: 8px;
   background-color: #e1321d;
   color: white;
+  cursor: pointer;
 }
 
 body .regulation {
