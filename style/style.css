@@ -1,6 +1,6 @@
 * {
   padding: 0;
-  margin: 0 40px 0;
+  margin: 0 3% 0;
 }
 
 body {
@@ -15,6 +15,7 @@ body {
 }
 
 body .header {
+  margin-top: 30px;
   width: 100%;
   height: -webkit-fit-content;
   height: -moz-fit-content;
@@ -22,12 +23,18 @@ body .header {
 }
 
 body .main {
+  margin-top: 20px;
   width: 100%;
   color: white;
   text-shadow: black 0.1em 0.1em 0.2em;
 }
 
+body .car {
+  margin-top: 20px;
+}
+
 body .description {
+  margin-top: 20px;
   width: 480px;
   font-size: 15px;
 }
