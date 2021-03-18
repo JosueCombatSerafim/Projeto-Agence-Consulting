@@ -1,8 +1,6 @@
 * {
   padding: 0;
   margin: 0 40px 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
 }
 
 body {
@@ -31,7 +29,6 @@ body .main {
 body .description {
   width: 480px;
   font-size: 15px;
-  padding-right: 0;
 }
 
 body .offer {
@@ -39,13 +36,21 @@ body .offer {
   margin: 0;
 }
 
+body .button {
+  height: 40px;
+  width: 220px;
+  border-radius: 8px;
+  background-color: #e1321d;
+  color: white;
+}
+
 body .regulation {
-  display: block;
   width: 480px;
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
-  background-color: #920101;
+  border-radius: 15px;
+  background-color: #a30e04;
   color: white;
   text-shadow: black 0.1em 0.1em 0.2em;
 }

@@ -1,7 +1,6 @@
 *{
     padding: 0;
     margin: 0 40px 0;
-    box-sizing: border-box;
 }
 
 body{
@@ -26,7 +25,6 @@ body{
     .description{
         width: 480px;
         font-size: 15px;
-        padding-right: 0;
     }
 
     .offer{
@@ -34,13 +32,20 @@ body{
         margin: 0;
     }
     
+    .button{
+        height: 40px;
+        width: 220px;
+        border-radius: 8px;
+        background-color: #e1321d;
+        color: white;
+    }
 
     .regulation{
-        display: block;
         width: 480px;
         height: fit-content;
+        border-radius: 15px;
 
-        background-color: rgb(146, 1, 1);
+        background-color: #a30e04;
         color: white;
         text-shadow: black 0.1em 0.1em 0.2em
     }
