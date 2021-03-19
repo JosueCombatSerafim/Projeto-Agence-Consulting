@@ -98,11 +98,34 @@ body .regulation {
 }
 
 body .form {
-  width: 350px;
+  width: 450px;
   margin-right: 0;
-  margin-left: 40vw;
+  margin-left: 35vw;
   float: right;
   color: white;
   text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+body #telefone {
+  margin-left: 31.5px;
+  margin-right: 0;
+  width: 180px;
+}
+
+body #celular {
+  width: 180px;
+}
+
+body #concessionaria {
+  width: 385px;
+  margin-left: 31.5px;
+}
+
+body #mensagem {
+  height: 100px;
+}
+
+body #enviar {
+  margin-left: 31.5px;
 }
 /*# sourceMappingURL=style.css.map */

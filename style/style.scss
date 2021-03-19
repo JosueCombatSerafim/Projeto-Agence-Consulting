@@ -92,11 +92,34 @@ body{
     }
 
     .form{
-        width: 350px;
+        width: 450px;
         margin-right: 0;
-        margin-left: 40vw;
+        margin-left: 35vw;
         float: right;
         color: white;
         text-shadow: black 0.1em 0.1em 0.2em
+    }
+
+    #telefone{
+        margin-left: 31.5px;
+        margin-right: 0;
+        width: 180px;
+    }
+
+    #celular{
+        width: 180px;
+    }
+
+    #concessionaria{
+        width: 385px;
+        margin-left: 31.5px;
+    }
+
+    #mensagem{
+        height: 100px;
+    }
+
+    #enviar{
+        margin-left: 31.5px;
     }
 }
