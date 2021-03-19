@@ -87,7 +87,7 @@ body .regulation {
   margin: 0 0 30px;
   padding: 10px;
   display: none;
-  width: 650px;
+  width: 550px;
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
@@ -128,11 +128,5 @@ body #mensagem {
 
 body #enviar {
   margin-left: 31.5px;
-}
-
-@media only screen and (max-width: 768px) {
-  #formCadastro {
-    margin-left: -35vw;
-  }
 }
 /*# sourceMappingURL=style.css.map */
