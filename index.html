@@ -42,7 +42,29 @@
         </div>
         <div class="col">
             <div class="form">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex assumenda consequuntur unde temporibus nostrum aliquam maxime et odit ea aut vel, numquam repellat? Voluptates molestiae tempora doloremque optio facilis praesentium.</p>
+                <h2>FALE CONOSCO:</h2>
+                <div class="form-group">
+                    <input type="text" name="nome" id="nome" placeholder="Seu Nome" class="form-control"><br>
+                </div>
+                <div class="form-group">
+                    <input type="email" name="email" id="email" placeholder="Seu e-mail" class="form-control"><br>
+                </div>
+                <div class="form-group">
+                    <input type="text" name="cpf" id="cpf" placeholder="CPF" class="form-control"><br>
+                </div>
+                <div class="form-group">
+                    <input type="tel" name="telefone" id="telefone" placeholder="Telefone" class="form-control">
+                </div>
+                <div class="form-group">
+                    <input type="tel" name="celular" id="celular" placeholder="Celular" class="form-control"><br>
+                </div>
+                <div class="form-group">
+                    <input type="text" name="c" id="c" placeholder="Concessionária" class="form-control"><br>
+                </div>
+                <div class="form-group">
+                    <input type="text" name="mensagem" id="mensagem" placeholder="Sua Mensagem" class="form-control"><br>
+                </div>
+                <input type="button" value="ENVIAR">
             </div>
         </div>
     </div>
@@ -53,8 +75,10 @@
         function botao(){
             if ($('.regulation').css('display') == 'block') {
                 $('.regulation').css({'display':'none'})
+                $('.form').css({'margin-left':'40vw'})
             } else {
                 $('.regulation').css({'display':'block'})
+                $('.form').css({'margin-left':'0'})
             }            
         }
 

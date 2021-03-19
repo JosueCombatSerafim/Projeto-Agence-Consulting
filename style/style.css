@@ -84,15 +84,24 @@ body .regulation_button .button {
 }
 
 body .regulation {
-  margin: 0;
+  margin: 0 0 30px;
   padding: 10px;
   display: none;
-  width: 550px;
+  width: 650px;
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
   border-radius: 15px;
   background-color: #a30e04;
+  color: white;
+  text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+body .form {
+  width: 350px;
+  margin-right: 0;
+  margin-left: 40vw;
+  float: right;
   color: white;
   text-shadow: black 0.1em 0.1em 0.2em;
 }
