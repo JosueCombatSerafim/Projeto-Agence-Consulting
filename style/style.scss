@@ -1,6 +1,6 @@
 *{
     padding: 0;
-    margin: 0 7% 0;
+    margin: 0 8% 0;
 }
 
 body{
@@ -79,10 +79,11 @@ body{
     }
 
     .regulation{
+        float: left;
         margin: 0 0 30px;
         padding: 10px;
         display: none;
-        width: 550px;
+        width: 450px;
         height: fit-content;
         border-radius: 15px;
 
@@ -92,11 +93,13 @@ body{
     }
 
     #formCadastro{
+        width: 50%;
         float: right;
         margin: 30px 0 20px 35vw;
     }
 
     .form{
+        margin-left: 0;
         width: 450px;
         color: white;
         text-shadow: black 0.1em 0.1em 0.2em
@@ -124,4 +127,8 @@ body{
     #enviar{
         margin-left: 31.5px;
     }
+}
+
+@media only screen and (max-width: 768px) {
+
 }
