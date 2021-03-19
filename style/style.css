@@ -36,6 +36,10 @@ body .main {
   text-shadow: black 0.1em 0.1em 0.2em;
 }
 
+body .col {
+  margin: 0;
+}
+
 body .title {
   margin: 25px 0 0 0;
   font-size: 40px;
@@ -52,11 +56,12 @@ body .description {
   display: flex;
   margin: 25px auto 0 0;
   width: 520px;
-  font-size: 15px;
+  font-size: 18px;
 }
 
 body .offer {
-  margin: 0;
+  margin: 30px 0 30px 40px;
+  height: 220px;
 }
 
 body .regulation_button {
@@ -82,7 +87,7 @@ body .regulation {
   margin: 0;
   padding: 10px;
   display: none;
-  width: 480px;
+  width: 550px;
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
