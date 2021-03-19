@@ -97,11 +97,12 @@ body .regulation {
   text-shadow: black 0.1em 0.1em 0.2em;
 }
 
+body #formCadastro {
+  margin: 30px 0 20px 35vw;
+}
+
 body .form {
   width: 450px;
-  margin-right: 0;
-  margin-left: 35vw;
-  float: right;
   color: white;
   text-shadow: black 0.1em 0.1em 0.2em;
 }
@@ -122,10 +123,16 @@ body #concessionaria {
 }
 
 body #mensagem {
-  height: 100px;
+  padding-bottom: 150px;
 }
 
 body #enviar {
   margin-left: 31.5px;
+}
+
+@media only screen and (max-width: 768px) {
+  #formCadastro {
+    margin-left: -35vw;
+  }
 }
 /*# sourceMappingURL=style.css.map */
