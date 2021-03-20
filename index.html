@@ -102,10 +102,22 @@
         function botao(){
             if ($('.regulation').css('display') == 'block') {
                 $('.regulation').css({'display':'none'})
-                $('#formCadastro').css({'margin-left':'35vw'})
+                if($(window).width() < 321){
+                    $('#formCadastro').css({'margin': '0'})
+                } else if($(window).width() < 769) {
+                    $('#formCadastro').css({'margin': '0'})
+                } else {
+                    $('#formCadastro').css({'margin': '30px 0 20px 35vw'})
+                }
             } else {
                 $('.regulation').css({'display':'block'})
-                $('#formCadastro').css({'margin-left':'6.35vw'})
+                if($(window).width() < 321){
+                    $('#formCadastro').css({'margin-left': '0'})
+                } else if($(window).width() < 769){
+                    $('#formCadastro').css({'margin-left': '0'})
+                } else {
+                    $('#formCadastro').css({'margin-left': '6.35vw'})
+                }
             }            
         }
 

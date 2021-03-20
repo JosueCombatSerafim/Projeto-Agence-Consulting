@@ -1,6 +1,13 @@
 *{
     padding: 0;
     margin: 0 8% 0;
+    box-sizing: border-box;
+    @media only screen and (max-width: 320px) {
+        margin: 2%;
+    }
+    @media only screen and (max-width: 768px) {
+        margin: 2%;
+    }
 }
 
 body{
@@ -9,18 +16,30 @@ body{
     
     width: 100%;
     height: max-content;
+    @media only screen and (max-width: 768px) {
+        width: 75%;
+    }
 
     background-color: #ba251c;
     .header{
         margin: 30px 0 0 0;
         width: 100%;
         height: fit-content;
+        @media only screen and (max-width: 320px) {
+            margin-top: 1%;
+        }
+        @media only screen and (max-width: 768px) {
+            margin-top: 0;
+        }
     } 
 
     .img{
         margin: 0;
         @media only screen and (max-width: 320px){
             height: 40px;
+        }
+        @media only screen and (max-width: 768px) {
+            height: 60px;
         }
     }
 
@@ -43,8 +62,11 @@ body{
         margin: 25px 0 0 0;
         font-size: 40px;
         @media only screen and (max-width: 320px){
-            font-size: 22px;
+            font-size: 25px;
             margin-top: 15px;
+        }
+        @media only screen and (max-width: 768px) {
+            font-size: 32.5px;
         }
     }
 
@@ -52,8 +74,11 @@ body{
         margin: 30px 0 0 0;
         height: 240px;
         @media only screen and (max-width: 320px){
-            height: 120px;
+            height: 30vh;
             margin-top: 20px;
+        }
+        @media only screen and (max-width: 768px) {
+            height: 22vh;
         }
     }
 
@@ -67,6 +92,10 @@ body{
             font-size: 15px;
             width: 100%;
         }
+        @media only screen and (max-width: 768px) {
+            width: 100%;
+            font-size: 19px;
+        }
     }
 
     .offer{
@@ -76,11 +105,15 @@ body{
             margin: 0 0 0 7%;
             height: 110px;
         }
+        @media only screen and (max-width: 768px) {
+            height: 200px;
+            margin: 10px 0 5px 9vw;
+        }
     }
     
     .regulation_button{
         margin: 0;
-        width: 100%;
+        width: 80%;
         
 
         .button{
@@ -109,6 +142,14 @@ body{
         height: fit-content;
         border-radius: 15px;
 
+        @media only screen and (max-width: 320px) {
+            width: 60%;
+            margin-left: 2%;
+        }
+        @media only screen and (max-width: 768px) {
+            margin-left: 4%;
+        }
+
         background-color: #a30e04;
         color: white;
         text-shadow: black 0.1em 0.1em 0.2em
@@ -119,7 +160,13 @@ body{
         margin: 30px 0 20px 35vw;
         @media only screen and (max-width: 320px){
             margin: 0;
-            width: max-content;
+            padding: 0;
+            width: -50%
+        }
+        @media only screen and (max-width: 768px) {
+            margin: 0;
+            padding: 0;
+            width: -40%;
         }
     }
 
@@ -130,23 +177,57 @@ body{
         text-shadow: black 0.1em 0.1em 0.2em
     }
 
+    #nome{
+        @media only screen and (max-width: 320px) {
+            width: 65%;
+        }
+    }
+
+    #email{
+        @media only screen and (max-width: 320px) {
+            width: 65%;
+        }
+    }
+
+    #cpf{
+        @media only screen and (max-width: 320px) {
+            width: 65%;
+        }
+    }
+
     #telefone{
         margin-left: 31.5px;
         margin-right: 0;
         width: 180px;
+        @media only screen and (max-width: 320px) {
+            margin-left: 2%;
+            width: 65%;
+        }
     }
 
     #celular{
         width: 180px;
+        @media only screen and (max-width: 320px) {
+            width: 65%;    
+            margin: 0;
+        }
     }
 
     #concessionaria{
         width: 385px;
         margin-left: 31.5px;
+        @media only screen and (max-width: 320px) {
+            margin-left: 2%;
+            width: 65%;
+        }
     }
 
     #mensagem{
         padding-bottom: 150px;
+        @media only screen and (max-width: 320px) {
+            padding-bottom: 70px;
+            width: 65%;
+        }
     }
 
     #enviar{

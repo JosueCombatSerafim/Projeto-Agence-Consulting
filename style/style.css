@@ -1,6 +1,20 @@
 * {
   padding: 0;
   margin: 0 8% 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+@media only screen and (max-width: 320px) {
+  * {
+    margin: 2%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  * {
+    margin: 2%;
+  }
 }
 
 body {
@@ -16,12 +30,30 @@ body {
   background-color: #ba251c;
 }
 
+@media only screen and (max-width: 768px) {
+  body {
+    width: 75%;
+  }
+}
+
 body .header {
   margin: 30px 0 0 0;
   width: 100%;
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
+}
+
+@media only screen and (max-width: 320px) {
+  body .header {
+    margin-top: 1%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  body .header {
+    margin-top: 0;
+  }
 }
 
 body .img {
@@ -31,6 +63,12 @@ body .img {
 @media only screen and (max-width: 320px) {
   body .img {
     height: 40px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  body .img {
+    height: 60px;
   }
 }
 
@@ -59,8 +97,14 @@ body .title {
 
 @media only screen and (max-width: 320px) {
   body .title {
-    font-size: 22px;
+    font-size: 25px;
     margin-top: 15px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  body .title {
+    font-size: 32.5px;
   }
 }
 
@@ -71,8 +115,14 @@ body .car {
 
 @media only screen and (max-width: 320px) {
   body .car {
-    height: 120px;
+    height: 30vh;
     margin-top: 20px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  body .car {
+    height: 22vh;
   }
 }
 
@@ -93,6 +143,13 @@ body .description {
   }
 }
 
+@media only screen and (max-width: 768px) {
+  body .description {
+    width: 100%;
+    font-size: 19px;
+  }
+}
+
 body .offer {
   margin: 30px 0 30px 40px;
   height: 220px;
@@ -105,9 +162,16 @@ body .offer {
   }
 }
 
+@media only screen and (max-width: 768px) {
+  body .offer {
+    height: 200px;
+    margin: 10px 0 5px 9vw;
+  }
+}
+
 body .regulation_button {
   margin: 0;
-  width: 100%;
+  width: 80%;
 }
 
 body .regulation_button .button {
@@ -139,6 +203,19 @@ body .regulation {
   text-shadow: black 0.1em 0.1em 0.2em;
 }
 
+@media only screen and (max-width: 320px) {
+  body .regulation {
+    width: 60%;
+    margin-left: 2%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  body .regulation {
+    margin-left: 4%;
+  }
+}
+
 body #formCadastro {
   width: 50%;
   margin: 30px 0 20px 35vw;
@@ -147,9 +224,16 @@ body #formCadastro {
 @media only screen and (max-width: 320px) {
   body #formCadastro {
     margin: 0;
-    width: -webkit-max-content;
-    width: -moz-max-content;
-    width: max-content;
+    padding: 0;
+    width: -50%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  body #formCadastro {
+    margin: 0;
+    padding: 0;
+    width: -40%;
   }
 }
 
@@ -160,14 +244,46 @@ body .form {
   text-shadow: black 0.1em 0.1em 0.2em;
 }
 
+@media only screen and (max-width: 320px) {
+  body #nome {
+    width: 65%;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  body #email {
+    width: 65%;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  body #cpf {
+    width: 65%;
+  }
+}
+
 body #telefone {
   margin-left: 31.5px;
   margin-right: 0;
   width: 180px;
 }
 
+@media only screen and (max-width: 320px) {
+  body #telefone {
+    margin-left: 2%;
+    width: 65%;
+  }
+}
+
 body #celular {
   width: 180px;
+}
+
+@media only screen and (max-width: 320px) {
+  body #celular {
+    width: 65%;
+    margin: 0;
+  }
 }
 
 body #concessionaria {
@@ -175,8 +291,22 @@ body #concessionaria {
   margin-left: 31.5px;
 }
 
+@media only screen and (max-width: 320px) {
+  body #concessionaria {
+    margin-left: 2%;
+    width: 65%;
+  }
+}
+
 body #mensagem {
   padding-bottom: 150px;
+}
+
+@media only screen and (max-width: 320px) {
+  body #mensagem {
+    padding-bottom: 70px;
+    width: 65%;
+  }
 }
 
 body #enviar {
